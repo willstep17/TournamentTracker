@@ -25,10 +25,5 @@ namespace TrackerLibrary
         /// The cell phone number of the person.
         /// </summary>
         public string CellphoneNumber { get; set; }
-
-        /// <summary>
-        /// The age of the person.
-        /// </summary>
-        public string Age { get; set; }
     }
 }
