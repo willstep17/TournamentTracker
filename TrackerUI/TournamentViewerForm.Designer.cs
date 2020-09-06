@@ -42,6 +42,7 @@
             this.teamTwoScoreLabel = new System.Windows.Forms.Label();
             this.teamTwoNameLabel = new System.Windows.Forms.Label();
             this.versusLabel = new System.Windows.Forms.Label();
+            this.scoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // headerLabel
@@ -190,6 +191,21 @@
             this.versusLabel.TabIndex = 13;
             this.versusLabel.Text = "-VS-";
             // 
+            // scoreButton
+            // 
+            this.scoreButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.scoreButton.FlatAppearance.BorderSize = 2;
+            this.scoreButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.scoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.scoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.scoreButton.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreButton.Location = new System.Drawing.Point(683, 302);
+            this.scoreButton.Name = "scoreButton";
+            this.scoreButton.Size = new System.Drawing.Size(107, 48);
+            this.scoreButton.TabIndex = 14;
+            this.scoreButton.Text = "Score";
+            this.scoreButton.UseVisualStyleBackColor = true;
+            // 
             // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 50F);
@@ -197,6 +213,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(843, 492);
+            this.Controls.Add(this.scoreButton);
             this.Controls.Add(this.versusLabel);
             this.Controls.Add(this.teamTwoScoreTextBox);
             this.Controls.Add(this.teamTwoScoreLabel);
@@ -212,6 +229,7 @@
             this.Controls.Add(this.tournamentNameLabel);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.Margin = new System.Windows.Forms.Padding(10, 12, 10, 12);
             this.Name = "TournamentViewerForm";
             this.Text = "Tournament Viewer";
@@ -237,6 +255,7 @@
         private System.Windows.Forms.Label teamTwoScoreLabel;
         private System.Windows.Forms.Label teamTwoNameLabel;
         private System.Windows.Forms.Label versusLabel;
+        private System.Windows.Forms.Button scoreButton;
     }
 }
 
