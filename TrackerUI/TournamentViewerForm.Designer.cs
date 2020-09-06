@@ -106,11 +106,12 @@
             // matchupListBox
             // 
             this.matchupListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.matchupListBox.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.matchupListBox.FormattingEnabled = true;
-            this.matchupListBox.ItemHeight = 50;
+            this.matchupListBox.ItemHeight = 30;
             this.matchupListBox.Location = new System.Drawing.Point(39, 194);
             this.matchupListBox.Name = "matchupListBox";
-            this.matchupListBox.Size = new System.Drawing.Size(352, 252);
+            this.matchupListBox.Size = new System.Drawing.Size(352, 242);
             this.matchupListBox.TabIndex = 5;
             // 
             // label1

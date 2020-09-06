@@ -170,12 +170,12 @@
             // tournamentPlayersListBox
             // 
             this.tournamentPlayersListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tournamentPlayersListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tournamentPlayersListBox.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tournamentPlayersListBox.FormattingEnabled = true;
-            this.tournamentPlayersListBox.ItemHeight = 25;
+            this.tournamentPlayersListBox.ItemHeight = 30;
             this.tournamentPlayersListBox.Location = new System.Drawing.Point(436, 134);
             this.tournamentPlayersListBox.Name = "tournamentPlayersListBox";
-            this.tournamentPlayersListBox.Size = new System.Drawing.Size(266, 127);
+            this.tournamentPlayersListBox.Size = new System.Drawing.Size(266, 122);
             this.tournamentPlayersListBox.TabIndex = 19;
             // 
             // tournamentPlayersLabel
@@ -219,12 +219,12 @@
             // tournamentPrizesListBox
             // 
             this.tournamentPrizesListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tournamentPrizesListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tournamentPrizesListBox.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tournamentPrizesListBox.FormattingEnabled = true;
-            this.tournamentPrizesListBox.ItemHeight = 25;
+            this.tournamentPrizesListBox.ItemHeight = 30;
             this.tournamentPrizesListBox.Location = new System.Drawing.Point(436, 339);
             this.tournamentPrizesListBox.Name = "tournamentPrizesListBox";
-            this.tournamentPrizesListBox.Size = new System.Drawing.Size(266, 127);
+            this.tournamentPrizesListBox.Size = new System.Drawing.Size(266, 122);
             this.tournamentPrizesListBox.TabIndex = 22;
             // 
             // deleteSelectedPrizeButton
