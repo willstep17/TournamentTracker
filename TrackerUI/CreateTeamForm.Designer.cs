@@ -53,9 +53,9 @@
             // teamNameTextBox
             // 
             this.teamNameTextBox.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teamNameTextBox.Location = new System.Drawing.Point(52, 113);
+            this.teamNameTextBox.Location = new System.Drawing.Point(34, 113);
             this.teamNameTextBox.Name = "teamNameTextBox";
-            this.teamNameTextBox.Size = new System.Drawing.Size(399, 43);
+            this.teamNameTextBox.Size = new System.Drawing.Size(417, 43);
             this.teamNameTextBox.TabIndex = 14;
             // 
             // teamNameLabel
@@ -101,9 +101,9 @@
             // 
             this.selectTeamMemberDropdown.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selectTeamMemberDropdown.FormattingEnabled = true;
-            this.selectTeamMemberDropdown.Location = new System.Drawing.Point(53, 220);
+            this.selectTeamMemberDropdown.Location = new System.Drawing.Point(35, 220);
             this.selectTeamMemberDropdown.Name = "selectTeamMemberDropdown";
-            this.selectTeamMemberDropdown.Size = new System.Drawing.Size(399, 45);
+            this.selectTeamMemberDropdown.Size = new System.Drawing.Size(417, 45);
             this.selectTeamMemberDropdown.TabIndex = 19;
             // 
             // selectTeamMemberLabel
